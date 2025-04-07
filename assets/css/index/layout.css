@@ -13,6 +13,9 @@ header nav ul{
 header nav ul li{
     margin: 0 15px;
 }
+.hamburger{
+    display: none;
+}
 
 .logo img{
     width:80px;
@@ -76,10 +79,19 @@ footer .footer-col ul li a:hover {
 
  /* pour tel */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .logo{
+        width: 25%;
+    }
+    header nav {
+        width: 25%;
+    }
     header nav ul {
-        display: block;
+        display: none;
         text-align: center;
+    }
+    .hamburger{
+        display: block;
     }
 
     .hero h1 {
@@ -95,14 +107,18 @@ footer .footer-col ul li a:hover {
         width: 90%;
         margin-bottom: 20px;
     }
+    footer{
+        flex-direction: column;
+    }
+
 }
 
 /* Menu Burger */
-input[type="checkbox"] {
+/* input[type="checkbox"] {
     display: none;
-}
+} */
 
-nav ul {
+/* nav ul {
     display: flex;
 }
 
@@ -113,18 +129,18 @@ nav label {
 
 input[type="checkbox"]:checked + label + ul {
     display: block;
-}
+} */
 
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     nav ul {
         display: none;
         flex-direction: column;
         background-color: #333333;
         padding: 10px;
         position: absolute;
-        top: 60px;
+        top: 60px; 
         right: 0;
     }
 
@@ -138,4 +154,4 @@ input[type="checkbox"]:checked + label + ul {
     nav ul li {
         margin: 10px 0;
     }
-}
+} */

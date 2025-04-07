@@ -1,0 +1,89 @@
+
+.histoire {
+    padding: 2rem;
+    text-align: center;
+}
+
+.histoire h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+}
+
+.histoire p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #333333;
+}
+
+
+.valeurs {
+    background-color: #F5F5DC;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.valeurs h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 2rem;
+}
+
+.valeurs-icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.valeur {
+    width: 30%;
+    text-align: center;
+}
+
+.valeur img {
+    width: 50px;
+    height: auto;
+}
+
+.valeur p {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+
+.photo-ambiance {
+    padding: 2rem;
+    text-align: center;
+}
+
+.photo-ambiance h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.photo-ambiance img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .valeurs-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .valeur {
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.hebergement-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
