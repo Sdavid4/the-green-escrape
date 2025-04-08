@@ -24,3 +24,56 @@ h1, h2, h3, h4 {
     transform: translateY(-2px);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
+
+
+.filtres {
+    background-color: #F5F5DC;
+    padding: 20px;
+    text-align: center;
+}
+
+.filtres h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.filtres-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.filtres-container label {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.coordonnees p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+
+.carte {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #F5F5DC;
+}
+
+.carte-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.coordonnees {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+h4{
+    text-decoration:underline;
+}

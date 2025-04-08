@@ -79,7 +79,7 @@
     }
 }
 
-.hebergement-card {
+.card {
     background-color: white;
     padding: 20px;
     margin: 10px;
@@ -87,3 +87,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+
+

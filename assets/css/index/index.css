@@ -85,6 +85,84 @@ a {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
+ /* pour tel */
+
+ @media screen and (max-width: 768px) {
+    .logo{
+        width: 25%;
+    }
+    header nav {
+        width: 25%;
+    }
+    header nav ul {
+        display: none;
+        text-align: center;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hebergements {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hebergement-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    footer{
+        flex-direction: column;
+    }
+
+}
+
+/* Menu Burger */
+/* input[type="checkbox"] {
+    display: none;
+} */
+
+/* nav ul {
+    display: flex;
+}
+
+nav label {
+    display: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label + ul {
+    display: block;
+} */
+
+
+
+/* @media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #333333;
+        padding: 10px;
+        position: absolute;
+        top: 60px; 
+        right: 0;
+    }
+
+    nav label {
+        display: block;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+} */
 
 
 

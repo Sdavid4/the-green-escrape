@@ -13,7 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/index/style.css">
     <link rel="stylesheet" href="./assets/css/index/layout.css">
-    <link rel="stylesheet" href="./assets/css/index/home.css">
+    <link rel="stylesheet" href="./assets/css/index/index.css">
     <link href="./Hebergements.html">
 </head>
 
@@ -138,3 +138,177 @@
 </body>
 
 </html>
+
+
+
+
+
+
+<!-- /* Pour les tablettes (769px à 1024px) */
+
+/* Styles généraux pour la tablette */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Mise en page du Header */
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    /* Logo dans le Header */
+    header .logo img {
+        width: 120px;
+    }
+
+    /* Menu de navigation - passage à une disposition horizontale */
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    header nav ul li {
+        font-size: 1rem;
+    }
+
+    /* Sections avec des images */
+    .hero {
+        height: 250px; /* Redimensionner l'image de la section Hero */
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Section "Avis clients" : Organisation en ligne pour les tablettes */
+    .avis-cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .avis-card {
+        width: 30%;
+        padding: 1rem;
+        background-color: #F5F5DC;
+        border-radius: 8px;
+    }
+
+    /* Section de valeurs - alignement des icônes en ligne */
+    .valeurs-icons {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .valeur {
+        width: 30%;
+    }
+
+    /* Section Contact : Ajustement des champs de formulaire */
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        width: 100%;
+        padding: 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+    /* Footer : Organisation des colonnes */
+    footer {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    footer .footer-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Footer réseaux sociaux et liens - aligner en ligne */
+    footer .footer-col ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    /* Section "Photo Ambiance" : Image responsive */
+    .photo-ambiance img {
+        width: 100%;
+        max-width: 600px;
+        margin-top: 1rem;
+    }
+
+    /* Section Histoire : Ajustement du texte */
+    .histoire p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* Section de filtres dans "Hébergements" */
+    .hebergements .filters {
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem 0;
+    }
+
+    /* Cartes des hébergements : Alignement flexible */
+    .hebergements .hebergement-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .hebergement-card {
+        padding: 1rem;
+        background-color: #F5F5DC;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    /* Section "A propos" - Disposition du texte et des images */
+    .photo-ambiance img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Ajout de marges pour un look plus spacieux */
+    .presentation,
+    .valeurs,
+    .histoire {
+        margin-top: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    /* Améliorer l'espacement entre les sections */
+    .section {
+        margin-bottom: 2rem;
+    }
+
+    /* Media Queries pour la grille des hébergements */
+    .hebergements .hebergement-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Footer ajusté pour la tablette */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+
+    footer .footer-col {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-col ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+} -->
